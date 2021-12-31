@@ -21,7 +21,11 @@ manage your docx file using git
 
 `pip install -r requirements.txt`
 
-4. use git as usual
+4. run command below
+
+`pre-commit install`
+
+5. use git as usual
 
 `git add -A`
 
