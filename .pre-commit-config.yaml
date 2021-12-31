@@ -1,0 +1,12 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+    - repo: local
+      hooks:
+        - id: docx2txt
+          name: docx2txt
+          entry: python docx2txt.py
+          language: python_venv
+          always_run: true
+          pass_filenames: false
+          additional_dependencies: [python-docx]
