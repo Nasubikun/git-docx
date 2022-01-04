@@ -42,7 +42,7 @@ python -m venv venv`。
 
 2. venvを起動
 
-(Windows) `.\VenvScripts﹑Activate`.
+(Windows) `.\VenvScripts\Activate`.
 
 3. 依存関係をインストール
 
